@@ -7,7 +7,7 @@ public class Tester{
 
     Triangle Shufaat = new Triangle(13,-2,9,-8,5,-2);
 
-    System.out.println(Shufaat.classify());
+    System.out.println(Shufaat.toString());
 
   }
 }
