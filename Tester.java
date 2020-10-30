@@ -1,15 +1,9 @@
 public class Tester{
   public static void main(String[] args){
 
-    Point Rifath = new Point(5,7);
+    Triangle Rifath = new Triangle(2,3,4,7,7,4);
 
-    Point Kutha = new Point(Rifath);
-
-    Point Anika = new Point(6,10);
-
-    // System.out.println(Rifath.distanceTo(Anika));
-
-    System.out.println(Rifath.equals(Anika));
+    System.out.println(Rifath.getPerimeter());
 
   }
 }
