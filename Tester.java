@@ -7,7 +7,9 @@ public class Tester{
 
     Point Anika = new Point(6,10);
 
-    System.out.println(Rifath.distanceTo(Anika));
+    // System.out.println(Rifath.distanceTo(Anika));
+
+    System.out.println(Rifath.equals(Anika));
 
   }
 }

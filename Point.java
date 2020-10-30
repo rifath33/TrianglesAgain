@@ -32,4 +32,11 @@ public class Point{
     );
   }
 
+  // 2.3b) The equals method returns true when this Point has the same x and y
+  // values as the other Point.
+
+  public boolean equals(Point other){
+    return ((x == other.x) && (y == other.y));
+  }
+
 }
