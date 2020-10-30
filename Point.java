@@ -21,4 +21,15 @@ public class Point{
     return y;
   }
 
+  // 2.3a) The distanceTo method returns the Euclidean distance from this point
+  // to the other point. Please DO NOT round.
+
+  public double distanceTo(Point other){
+    return Math.sqrt(
+    Math.pow( (x - other.x), 2)
+    +
+    Math.pow( (y - other.y), 2)
+    );
+  }
+
 }
