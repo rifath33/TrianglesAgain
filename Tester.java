@@ -9,5 +9,11 @@ public class Tester{
 
     System.out.println(Shufaat.toString());
 
+    Point k = new Point(3,4);
+
+    Shufaat.setVertex(0,k);
+
+    System.out.println(Shufaat.toString());
+
   }
 }

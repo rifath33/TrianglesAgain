@@ -65,9 +65,21 @@ public class Triangle{
      " v3(" + v3.getX() + ", " + v3.getY() + ")";
   }
 
+  // mutator...
+  // replace the specified Point (0,1, or 2) with the new Point
+  public void setVertex(int index, Point newP){
+    if(index == 0)
+    v1 = newP;
+    else{
+      if(index == 1)
+      v2 = newP;
+      else{
+        if(index == 2)
+        v3 = newP;
+        // no other cases because the index has to either be 0, 1 or 2
+      }
+    }
+  }
 
-/*
-  -One mutator
-  public void setVertex(int index, Point newP) - replace the specified Point (0,1, or 2) with the new Point
-  */
+
 }
